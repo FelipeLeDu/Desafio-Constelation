@@ -3,5 +3,7 @@ Este projeto faz parte de um desafio proporcionado pela empresa Constellation e 
 
 # Arquivos 
 1- Modelo Final = Modelo treinado para prever a Taxa Selic
+
 2- dataset_final = Conjunto de dados consolidado
+
 3- dados = Dados coletados de fontes governamentais e econômicas
