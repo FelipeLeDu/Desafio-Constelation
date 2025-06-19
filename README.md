@@ -1,4 +1,4 @@
-# Desafio Constelation
+# Constelation Challenge
 This project is part of a challenge proposed by the company Constellation, and it involves developing a model to predict the Selic interest rate using data collected from various sources, including government databases and websites. The modeling process considered key economic variables such as the behavior of the Federal Reserve (FED), national loan default rates, external debt, changes in the basic food basket price, Selic target rate, and the unemployment rate.
 
 # Files
