@@ -1,9 +1,9 @@
 # Desafio Constelation
-Este projeto faz parte de um desafio proporcionado pela empresa Constellation e desenvolve um modelo de predição da Taxa Selic, utilizando dados coletados de diversas fontes, incluindo bases e sites governamentais. A modelagem considerou variáveis econômicas cruciais, como o comportamento do FED, inadimplência financeira nacional, dívida externa, variação do preço da cesta básica, meta da Selic e índice de desemprego.
+This project is part of a challenge proposed by the company Constellation, and it involves developing a model to predict the Selic interest rate using data collected from various sources, including government databases and websites. The modeling process considered key economic variables such as the behavior of the Federal Reserve (FED), national loan default rates, external debt, changes in the basic food basket price, Selic target rate, and the unemployment rate.
 
-# Arquivos 
-- **Modelo Final** = Modelo treinado para prever a Taxa Selic
+# Files
+- **Modelo Final** = Trained model for forecasting the Selic interest rate
 
-- **dataset_final** = Conjunto de dados consolidado
+- **dataset_final** = Consolidated dataset
 
-- **dados** = Dados coletados de fontes governamentais e econômicas
+- **dados** = Raw data collected from government and economic sources
