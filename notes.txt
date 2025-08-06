@@ -1,0 +1,18 @@
+Coisas que precisamos terminar: 
+
+Fase 1- reparação da coleta de dados (dataextract)
+
+a) Construir funções de coleta de dados -> situação: terminanos as funções extraem dados da API do BC e do yFinance 
+b) Juntar tudo numa planilha com as mesmas variáveis do dataset original (dataset_final.xlsx)
+c) colocar as funções de coleta no scr 
+d) fazer as manipulações necessárias no dataset novo para ser usadao no modelo (tentar deixar melhor do que o original se possível)
+
+Fase 2- Pré visualização dos dados
+
+a) Limpar e organizar o código original
+b) 2025 ver -> Tentar fazer algumas análises de correlação melhores (deixar essas novas análises na versão de 2025)
+
+Fase 3- Modelo 
+
+a) Colocar todo o modelo que usamos em uma só função
+b) 2025 ver -> comparar outros modelos e ver qual perfoma melhor 
