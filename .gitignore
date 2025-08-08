@@ -1,3 +1,4 @@
 .venv/
 .~lock.dataset_final.xlsx#
-.notes.txt
+notes.txt
+__pycache__/

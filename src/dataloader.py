@@ -1,10 +1,10 @@
 import yfinance as yf 
-import bcb as sgs 
+from bcb import sgs # API do BC 
 import pandas as pd
 from functools import reduce
 from datetime import timedelta, datetime
 
-def df_yf(ticker_datas: dict, variacao=True) -> pd.DataFrame: #vai receber um dicionário com os tickers e as datas de início e fim
+def extract_yf(ticker_datas: dict, variacao=True) -> pd.DataFrame: #vai receber um dicionário com os tickers e vai retornar um DataFrame
     frames = []
     for ticker, (start, end) in ticker_datas.items(): # loop por cada ativo e suas datas
         df = yf.download(ticker, start=start, end=end) # baixar os dados do yahoo finance
@@ -22,7 +22,7 @@ def df_yf(ticker_datas: dict, variacao=True) -> pd.DataFrame: #vai receber um di
     result = reduce(lambda left, right: pd.merge(left, right, on="Date", how="outer"), frames)
     return result
 
-def baixar_variaveis_bcb(series: dict, start: str, end: str) -> pd.DataFrame: # API só aceita 10 anos de dados por vez
+def extract_bcb(series: dict, start: str, end: str) -> pd.DataFrame: # API só aceita 10 anos de dados por vez
 
     start_date = pd.to_datetime(start)
     end_date = pd.to_datetime(end)
