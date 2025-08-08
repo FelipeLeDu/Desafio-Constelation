@@ -1,6 +1,6 @@
 Coisas que precisamos terminar: 
 
-Fase 1- reparação da coleta de dados (dataextract)
+Fase 1- reparação da coleta de dados (dataextract) - Tudo FEITO!
 
 a) Construir funções de coleta de dados -> situação: terminada as funções que extraem dados da API do BC e do yFinance 
 b) Juntar tudo numa planilha com as mesmas variáveis do dataset original (dataset_final.xlsx)
